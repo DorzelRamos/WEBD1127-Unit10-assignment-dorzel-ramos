@@ -27,8 +27,8 @@
   stroke-linecap: round;
 }
 .container section#loading span {
-  color: red;
-  font-size: 1.25em;
+  color: #946A2C;
+  font-size: 2em;
   opacity: 0;
 }
 .container section#loading #span1 {
@@ -50,20 +50,27 @@
 }
 
 .content {
-  background-color: #000;
+  background-color: #FFC547;
   position: absolute;
   top: 0;
 }
 .content h1 {
   color: #90e8c3;
   font-family: sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: 0.4em;
 }
 .content h1 span {
   display: inline-block;
 }
-
+.content h1 .hpd {
+  color: #946A2C;
+}
+.content h1 #design {
+  color: #FFDE59;
+}
 .loading {
   opacity: 0;
+  color: #000;
+  font-size: 2em;
 }/*# sourceMappingURL=style.css.map */
